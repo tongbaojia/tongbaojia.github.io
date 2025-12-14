@@ -1063,11 +1063,13 @@
 	#banner {
 		background-image: url(../images/FourMuon.jpg);
 		/*background-image: url(../images/Cover.jpg);*/
-		background-position: left center;
+		background-position: center center;
 		background-size: cover;
+		background-repeat: no-repeat;
 		color: #ffffff;
 		padding: 14em 0em 14em;
 		text-align: center;
+		min-height: 600px;
 	}
 
 		#banner :last-child {
